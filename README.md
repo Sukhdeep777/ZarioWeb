@@ -1,5 +1,37 @@
 # ***ZarioWeb***
 
+## 🧩 Metodologia
+
+Per garantir l'èxit del nostre projecte, hem seguit una metodologia estructurada i iterativa que combina anàlisi de mercat, inspiració visual i desenvolupament pràctic. Aquesta metodologia no només ens permet mantenir la qualitat i coherència del projecte, sinó també assegurar una experiència d'usuari òptima.
+
+### 📌 Passos clau del procés
+
+1. **Definició de l’objectiu del projecte**  
+   Vam establir que el nostre enfocament seria el món dels **cotxes esportius**, prioritzant el disseny, l’experiència visual i l’impacte de marca.
+
+2. **Recerca i inspiració**  
+   Ens vam inspirar en marques , analitzant la seva estètica, estructura web i paleta cromàtica.
+
+3. **Identificació dels valors clau**  
+   Ens hem centrat en tres pilars fonamentals:
+   - **Perfeccionisme**
+   - **Claredat**
+   - **Estètica**
+
+4. **Disseny conceptual**  
+   A partir de la recerca, vam crear una línia visual pròpia, seleccionant tipografies, colors i estructures adaptades al nostre públic objectiu: amants del motor i l’exclusivitat.
+
+5. **Desenvolupament iteratiu**  
+   Vam començar a construir la nostra pàgina web aplicant els conceptes analitzats, validant cada pas amb l’equip i fent ajustaments constants per mantenir la qualitat.
+
+6. **Test i validació**  
+   Abans de la versió final, testegem la web per garantir un bon rendiment, adaptabilitat mòbil i una navegació fluida.
+
+---
+
+Aquest enfocament ens permet assegurar una **experiència digital de qualitat**, alineada amb la imatge que projecta una empresa de cotxes esportius: **innovadora, precisa i d'alt nivell**.
+
+  
 ## 💭 Idees 
 
 Per dur a terme aquesta activitat hem treballat de manera activament col·laborativa per generar idees diferents i, així, establir una base sòlida per la nostra pàgina web. 
