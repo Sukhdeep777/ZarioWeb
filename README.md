@@ -28,20 +28,14 @@ Amb totes aquestes idees **organitzades**, **analitzades** i, posteriorment, **b
 
 Les principals idees que hem tingut has sortit de webs de marcar conegudes, ja que tenen una estètica lineal i hem pogut crear la nostra pròpia línia de colors, tipografies…
 
-· https://www.porsche.com/spain/
-De Porsche observem que el Blog és un model molt net i estètic, el qual el fem servir com a base. També ens hem inspirat en la combinació de colors que presenta, a més a més del disseny simple i suau.
+· https://www.porsche.com/spain/ De Porsche observem que el Blog és un model molt net i estètic, el qual el fem servir com a base. També ens hem inspirat en la combinació de colors que presenta, a més a més del disseny simple i suau.
 
-· https://www.lamborghini.com/es-en
-De Lamborghini traiem inspiració per fer la primera vista de la pàgina, l'inici amb vídeo i la capçalera amb el nom. També basant-nos per a l'estètica del V-Starossa.
+· https://www.lamborghini.com/es-en De Lamborghini traiem inspiració per fer la primera vista de la pàgina, l'inici amb vídeo i la capçalera amb el nom. També basant-nos per a l'estètica del V-Starossa.
 
-· https://www.ford.es/
-Ford no el fem servir per a res en concret, ja que és el menys elegant i és força carregat visualment. Tot i això, la seva capçalera simple i estàndard ens ha servit lleugerament de referència per realitzar la nostra.
+· https://www.ford.es/ Ford no el fem servir per a res en concret, ja que és el menys elegant i és força carregat visualment. Tot i això, la seva capçalera simple i estàndard ens ha servit lleugerament de referència per realitzar la nostra.
 
-· https://www.bugatti.com/ 
-En el cas de Bugatti és un cas excepcional, ja que és el referent més gran que hem tingut, sense gaire èxit a causa de la seva complexitat i que el temps no acompanyava. També basant-nos per a l'estètica del V-Starossa.
+· https://www.bugatti.com/  En el cas de Bugatti és un cas excepcional, ja que és el referent més gran que hem tingut, sense gaire èxit a causa de la seva complexitat i que el temps no acompanyava. També basant-nos per a l'estètica del V-Starossa.
 
-· https://www.bmw.es/es/home.html  
-A BMW, vam agafar com a idea la part dels cotxes, ja que és força net tenir un botó desplegable.
+· https://www.bmw.es/es/home.html  A BMW, vam agafar com a idea la part dels cotxes, ja que és força net tenir un botó desplegable.
 
-· https://www.pagani.com/
-A Pagani ens fixem en el perfeccionisme i detall que ho té tot, juntament amb utilitzar l'estètica aerodinàmica del Wing-Carrera.
+· https://www.pagani.com/ A Pagani ens fixem en el perfeccionisme i detall que ho té tot, juntament amb utilitzar l'estètica aerodinàmica del Wing-Carrera.
