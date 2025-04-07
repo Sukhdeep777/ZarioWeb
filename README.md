@@ -26,7 +26,7 @@ Amb totes aquestes idees **organitzades**, **analitzades** i, posteriorment, **b
 
 ## 💡 Inspiracions 
 
-Les principals idees que hem tingut has sortit de webs de marcar conegudes, ja que tenen una estètica lineal i hem pogut crear la nostra pròpia línia de colors, tipografies…
+Les principals idees que hem tingut han sortit de webs de marcar conegudes, ja que tenen una estètica lineal i hem pogut crear la nostra pròpia línia de colors, tipografies…
 
 · https://www.porsche.com/spain/ De Porsche observem que el Blog és un model molt net i estètic, el qual el fem servir com a base. També ens hem inspirat en la combinació de colors que presenta, a més a més del disseny simple i suau.
 
