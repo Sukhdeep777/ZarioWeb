@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias sobre Tecnología Vehicular</title>
+    
+    <!-- Importación de las fuentes Kaushan Script y Gruppo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Gruppo&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Fondo blanco por defecto */
+            background-image: url('https://img.freepik.com/fotos-premium/fondo-marmol-azul-oscuro-dorado-textura-piedra-marmol-lujo-telon-fondo-invitacion_779330-747.jpg?w=2000'); /* Imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            background-position: center; /* Centra la imagen de fondo */
+            background-attachment: fixed; /* Hace que el fondo no se mueva al hacer scroll */
+            color: black; /* Color de texto negro */
+        }
+
+        /* Estilo para el encabezado */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #222;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        .logo-text {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff;
+            white-space: nowrap;
+        }
+
+        .logo-container a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            font-family: 'Gruppo', sans-serif;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        /* Animación al pasar el mouse por encima */
+        nav a:hover {
+            background-color: #e4e4e4;
+            color: #111;
+        }
+
+        /* Animación al hacer clic en el botón */
+        nav a:active {
+            transform: scale(0.95); /* Reduce el tamaño del botón */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Resplandor */
+        }
+
+
+        /* Contenedor principal de la página de noticias */
+        .main-container {
+            margin-top: 100px; /* Para que el contenido no quede debajo del encabezado fijo */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Título de la sección Tecnologías con fondo ajustado */
+        h1 {
+            font-size: 72px; /* Título más grande */
+            color: #f8d674; /* Color dorado */
+            margin-bottom: 40px;
+            padding: 10px 30px; /* Ajuste del padding para no sobrepasar los lados */
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+            border-radius: 10px;
+            display: inline-block; /* Ajusta el tamaño al contenido */
+        }
+
+        /* Estilo para las noticias */
+        .news-article {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .news-article .text {
+            flex: 1;
+            margin-right: 20px;
+            text-align: left; /* Alinea el texto a la izquierda */
+        }
+
+        .news-article h2 {
+            font-size: 28px;
+            color: #f8d674;
+        }
+
+        .news-article p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: white;
+        }
+
+        .news-article .btn-leer {
+            background-color: #1535ed; /* Color azul */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .news-article .btn-leer:hover {
+            background-color: #f8d674; /* Color dorado en hover */
+            color: black;
+        }
+
+        .news-article .image {
+            width: 300px; /* Tamaño fijo de las imágenes */
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Pie de página */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000000;
+            color: #f8d674;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="logo.png" alt="Zario Logo">
+                <div class="logo-text">Zario</div>
+            </a>
+        </div>
+        <nav>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="tecnologia.html">Tecnología</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal de noticias -->
+    <div class="main-container">
+        <h1>Tecnologías</h1> <!-- Título más grande con fondo ajustado -->
+
+        <div class="news-article">
+            <div class="text">
+                <h2>El futuro de los vehículos eléctricos: Autonomía y velocidad</h2>
+                <p>Los vehículos eléctricos continúan avanzando a gran velocidad, con nuevas baterías que ofrecen mayor autonomía y tiempos de carga más rápidos. Los avances en esta tecnología no solo están mejorando la eficiencia, sino también ofreciendo nuevas experiencias para los conductores.</p>
+                <a href="#" class="btn-leer">Leer más...</a> <!-- Botón estilo 'Leer más' -->
+            </div>
+            <img src="imagenes vehiculo-electrico.jpg" alt="Vehículo eléctrico" class="image">
+        </div>
+
+        <div class="news-article">
+            <div class="text">
+                <h2>Sistemas de conducción autónoma: El paso hacia los vehículos sin conductor</h2>
+                <p>La conducción autónoma ha dejado de ser solo una idea futurista. Con avances en IA y sensores, los vehículos sin conductor están más cerca que nunca de ser una realidad en las carreteras. Este cambio promete transformar la movilidad urbana y la seguridad vial.</p>
+                <a href="#" class="btn-leer">Leer más...</a> <!-- Botón estilo 'Leer más' -->
+            </div>
+            <img src="imagenes vehiculo-autonomo.jpg" alt="Vehículo autónomo" class="image">
+        </div>
+
+        <div class="news-article">
+            <div class="text">
+                <h2>La revolución de los vehículos conectados</h2>
+                <p>Los vehículos modernos están cada vez más conectados, ofreciendo una integración completa con dispositivos móviles y otros sistemas. La conectividad de los vehículos va más allá del simple entretenimiento, transformando cómo los conductores interactúan con su coche y mejorando la seguridad.</p>
+                <a href="#" class="btn-leer">Leer más...</a> <!-- Botón estilo 'Leer más' -->
+            </div>
+            <img src="imagenes vehiculo-conectado.jpg" alt="Vehículo conectado" class="image">
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        <p>&copy; 2025 ZARIO - Todos los derechos reservados</p>
+    </div>
+
+</body>
+</html>

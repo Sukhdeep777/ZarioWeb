@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zario - Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Gruppo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Gruppo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #222;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        .logo-text {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff;
+            white-space: nowrap;
+        }
+
+        .logo-container a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            font-family: 'Gruppo', sans-serif;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        /* Animación al pasar el mouse por encima */
+        nav a:hover {
+            background-color: #e4e4e4;
+            color: #111;
+        }
+
+        /* Animación al hacer clic en el botón */
+        nav a:active {
+            transform: scale(0.95); /* Reduce el tamaño del botón */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Resplandor */
+        }
+
+        .video-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80vh;
+            overflow: hidden;
+        }
+
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            filter: grayscale(50%);
+            z-index: 1;
+            background-size: cover;
+            background-position: center;
+            animation: changeBackground 10s infinite alternate;
+        }
+
+        @keyframes changeBackground {
+            0%   { background-image: url('https://i.gifer.com/1fD7.gif'); }
+            10%  { background-image: url('https://i.gifer.com/7Sbj.gif'); }
+            20%  { background-image: url('https://i.gifer.com/3Y4a.gif'); }
+            30%  { background-image: url('https://i.pinimg.com/originals/67/5b/3e/675b3eb80fe266a2a67873f0a4b2e01d.gif'); }
+            40%  { background-image: url('https://i.pinimg.com/originals/39/12/37/391237c61ff55e4df4d538ab6e230f88.gif'); }
+            50%  { background-image: url('https://i.gifer.com/MY3I.gif'); }
+            60%  { background-image: url('https://i.gifer.com/MY3E.gif'); }
+            70%  { background-image: url('https://i.pinimg.com/originals/25/1a/0f/251a0f54395a7898d5a3896ffd5b3032.gif'); }
+            80%  { background-image: url('https://i.gifer.com/7zCO.gif'); }
+            90%  { background-image: url('https://i.pinimg.com/originals/15/d3/07/15d307c328743b3bc0b18a65b84e16df.gif'); }
+            100% { background-image: url('https://i.pinimg.com/originals/50/fd/57/50fd57185f377d5e140a357e48f991bf.gif'); }
+        }
+
+        .slogan {
+            font-family: 'Kaushan Script', cursive;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 77px;
+            font-weight: bold;
+            color: white;
+            z-index: 2;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        footer {
+            font-family: 'Gruppo', sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="#home">
+                <img src="logo.png" alt="Zario Logo">
+                <div class="logo-text">Zario</div>
+            </a>
+        </div>
+        <nav>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="tecnologia.html">Tecnología</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+    </header>
+
+    <div id="home" class="video-wrapper">
+        <div class="slogan">La potencia en cada curva. <br> La elegancia en cada kilómetro.</div>
+        <div class="video-container"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Zario - Derechos de autor</p>
+    </footer>
+
+</body>
+</html>
