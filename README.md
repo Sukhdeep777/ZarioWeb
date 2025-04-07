@@ -1,5 +1,4 @@
-# ZarioWeb
-Pàgina Oficial de la Empresa Zario (Ficticia)
+# ***ZarioWeb***
 
 ## 💭 Idees i Procés Creatiu
 
