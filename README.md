@@ -6,7 +6,7 @@ Per dur a terme aquesta activitat hem treballat de manera activament col·labora
 
 Per començar, volíem que el projecte sigui encaminat en el món dels automòbils. Per poder obtenir conclusions favorables, hem fet una recerca prèvia i, amb aquesta, hem analitzat les diferents dades que vam obtenir amb la recerca.
 
-🚗 Des del principi vam tenir ben clar de què volíem fer una pàgina web relacionada amb els automòbils. Aquest sector ens interessava en especial perquè ofereix moltes possibilitats tant visuals com de contingut. 
+Des del principi vam tenir ben clar de què volíem fer una pàgina web relacionada amb els automòbils. Aquest sector ens interessava en especial perquè ofereix moltes possibilitats tant visuals com de contingut. 
 
 Per això, vam començar recercant i analitzant meticulosament cinc pàgines conegudes i professionals dins d’aquest àmbit. Això últim ens ha permès entendre quins són els diferents elements visuals i estructurals que funcionen millor i, més endavant, quins detalls poden marcar un factor diferencial dins del nostre projecte.
 
